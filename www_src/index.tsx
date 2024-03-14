@@ -11,7 +11,6 @@ import {
 import { ICalendlyTokens } from "../server_src/calendly.js";
 import { InlineWidget as CalendlyInlineWidget } from "react-calendly";
 import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
-import { DocumentViewer } from "react-documents";
 
 import { type DocViewerProps } from "@cyntler/react-doc-viewer/dist/esm/DocViewer.js";
 const DocumentViewerCyntler = DocViewer as unknown as React.FC<DocViewerProps>;
